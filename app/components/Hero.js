@@ -6,7 +6,7 @@ import CircumIcon from "@klarr-agency/circum-icons-react";
 export default function Hero() {
   return (
     <hero className="flex flex-col justify-center min-h-[100vh]">
-      <div className="flex flex-wrap justify-center gap-20 sm:gap-0 lg:flex lg:justify-between">
+      <div className="flex flex-wrap justify-center gap-20 sm:gap-0 lg:flex lg:justify-between mt-28">
         <div className="w-full max-w-xl lg:max-w-[410px] lg:w-2/5 lg:items-start flex flex-col justify-center items-center text-center">
           <h3 className="text-2xl font-bold lg:text-justify">
             Partez l'esprit tranquille
