@@ -4,8 +4,41 @@ import {
   PiMapPinLight,
   PiFilesLight,
   PiCarLight,
+  PiHouseLight,
+  PiStarLight,
+  PiQuestionLight,
+  PiPencilLineLight,
 } from "react-icons/pi";
 import { FaGooglePlay, FaApple } from "react-icons/fa6";
+import Link from "next/link";
+
+export const navBarPhoneInfos = [
+  {
+    link: "Accueil",
+    icon: <PiHouseLight className="text-xl" />,
+    href: "/",
+  },
+  {
+    link: "Nos Véhicules",
+    icon: <PiCarLight className="text-xl" />,
+    href: "/vehicules",
+  },
+  {
+    link: "Avis",
+    icon: <PiStarLight className="text-xl" />,
+    href: "/avis",
+  },
+  {
+    link: "Aide",
+    icon: <PiQuestionLight className="text-xl" />,
+    href: "/aide",
+  },
+  {
+    link: "Contact",
+    icon: <PiPencilLineLight className="text-xl" />,
+    href: "/contact",
+  },
+];
 
 export const logosImg = [
   "/audi-logo.png",
